@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 19, 2022 at 10:52 AM
+-- Generation Time: Jul 19, 2022 at 10:57 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.3
 
@@ -43,7 +43,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `price`, `picture`, `fk_supplierId`) VALUES
-(1, 'mouse', '12.00', 'product.png', 2),
+(1, 'mouse', '12.00', 'pic1.png', 2),
 (2, 'PC', '2000.00', 'product.png', 2),
 (3, 'T-shirt', '15.00', 'product.png', 1),
 (4, 'Keyboard', '20.00', 'product.png', NULL);
