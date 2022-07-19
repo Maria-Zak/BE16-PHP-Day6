@@ -63,7 +63,7 @@ mysqli_close($connect);
                 <a href= "../dashboard.php"><button class='btn btn-primary'type="button" >Dashboard</button></a>
             </div>
             <p class='h2'>Products</p>
-            <table class='table table-striped'>
+            <table class='table table-hover'>
                 <thead class='table-success'>
                     <tr>
                         <th>Picture</th>
